@@ -1,5 +1,6 @@
-## Filemanager tool for Laravel Nova
+## Filemanager tool
 
+![Filemanager tool](https://raw.githubusercontent.com/KarimQaderi/Zoroaster-Filemanager/master/1.png)
 
 ## نصب 
 
