@@ -1,0 +1,33 @@
+{
+    "name": "karim-qaderi/zoroaster-filemanager",
+    "description": "Filemanager tool for zoroaster",
+    "keywords": [
+        "laravel",
+        "zoroaster",
+        "filemanager"
+    ],
+    "authors": [
+        {
+            "name": "Karim Qaderi",
+            "email": "karimqaderi1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KarimQaderi\\ZoroasterFilemanager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KarimQaderi\\ZoroasterFilemanager\\FilemanagerServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
