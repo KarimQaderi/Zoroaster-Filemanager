@@ -19,6 +19,8 @@
 
 ```bash
 composer update
+
+php artisan vendor:publish --tag=Zoroaster-filemanager-assets
 ```
 
 
