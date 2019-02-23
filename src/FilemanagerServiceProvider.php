@@ -40,7 +40,7 @@
             ]);
 
             Zoroaster::SidebarMenus([
-                MenuItem::make()->route('Zoroaster-filemanager.index','مدیریت فایل')->icon('folder-2')
+                MenuItem::make()->route('Zoroaster-filemanager.index','مدیریت فایل')->icon('folder-2')->gate('ZoroasterFilemanager')
             ]);
 
         }
