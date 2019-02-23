@@ -4,22 +4,8 @@
 
 ## نصب 
 
-فایل composer.json باز کنید و کد زیر رو قرار دهید :
-
-```json
-    "require": {
-        "karim-qaderi/zoroaster-filemanager": "*"
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/KarimQaderi/Zoroaster-Filemanager.git"
-        }
-    ],
-```
-
 ```bash
-composer update
+composer require karim-qaderi/zoroaster-filemanager
 
 php artisan vendor:publish --tag=Zoroaster-filemanager-assets
 ```
