@@ -229,13 +229,13 @@ click('[data-type="file"].Filemanager_type .Filemanager_click', function ($this)
 });
 
 click('.Filemanager_field_btn', function ($this) {
-    filemanager_model_select_input_name = $($this).attr('data-name');
+    filemanager_model_select_input_name = $($this).attr('data-id');
     filemanger_model('/');
 });
 
 
 click('.filemanager_model_select', function ($this) {
-    $('[name="' + filemanager_model_select_input_name + '"]').val($($this).attr('data-url'));
+    $('#'+filemanager_model_select_input_name).val($($this).attr('data-url'));
     var_filemanger_getInfo.close();
     var_filemanger_model.close();
 });
