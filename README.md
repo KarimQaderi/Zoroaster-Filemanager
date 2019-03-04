@@ -7,7 +7,7 @@
 ```bash
 composer require karim-qaderi/zoroaster-filemanager
 
-php artisan vendor:publish --tag=Zoroaster-filemanager-assets
+ php artisan vendor:publish --tag=Zoroaster-filemanager-assets --force
 ```
 
 
