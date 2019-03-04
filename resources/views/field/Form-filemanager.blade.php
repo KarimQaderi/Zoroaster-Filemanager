@@ -1,4 +1,3 @@
-@php($id = $field->name.str_slug(microtime(true)))
 <label class="Zoroaster_Filemanager_field">
     <span class="label">{{ $field->label }}</span>
     <span class="uk-text-warning uk-text-small-2">{{ Zoroaster::getMeta($field,'helpText') }}</span>
